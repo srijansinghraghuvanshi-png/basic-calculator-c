@@ -2,12 +2,6 @@
 # Basic Calculator in C
 
 This is a simple menu-driven calculator program written in C.
-It performs:
-- Addition
-- Subtraction
-- Multiplication
-- Division
-
 Built as practice during BCA 1st year.
  
 ## Features
