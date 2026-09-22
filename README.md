@@ -9,6 +9,8 @@ A beginner-friendly **menu-driven calculator written in C** as part of my early 
 - Multiplication
 - Division
 - Menu-driven interface
+- Basic input validation
+- Division-by-zero protection
 
 ## 🛠️ Technologies
 
@@ -22,27 +24,25 @@ This project helped me practice:
 
 - Variables and data types
 - Arithmetic operators
-- Conditional logic
-- Functions/control flow
+- Conditional logic and control flow
 - User input and output
-- Basic program structure
+- Basic error handling
+- Program structure
 
 ## ▶️ Run Locally
 
 Compile with GCC:
 
 ```bash
-gcc calculator.c -o calculator
-./calculator
+gcc calculater.c -o calculater
+./calculater
 ```
-
-> The filename above assumes the C source file is named `calculator.c`.
 
 ## 📌 Project Level
 
 **Beginner / Fundamentals**
 
-This is an early learning project. My current focus is progressing from programming fundamentals to Python, DSA, data analysis and AI/ML.
+This is an early learning project. I’m using these fundamentals to build toward Python, DSA, data analysis and AI/ML.
 
 ## 🔗 Links
 
