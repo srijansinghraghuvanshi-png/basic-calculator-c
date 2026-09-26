@@ -2,7 +2,7 @@
 
 int main(void) {
     int choice;
-    float a, b;
+    float num1, num2;
 
     while (1) {
         printf("\n===== BASIC CALCULATOR =====\n");
@@ -29,26 +29,26 @@ int main(void) {
         }
 
         printf("Enter two numbers: ");
-        if (scanf("%f %f", &a, &b) != 2) {
+        if (scanf("%f %f", &num1, &num2) != 2) {
             printf("Invalid number input.\n");
             return 1;
         }
 
         switch (choice) {
             case 1:
-                printf("Result = %.2f\n", a + b);
+                printf("Result = %.2f\n", num1 + num2);
                 break;
             case 2:
-                printf("Result = %.2f\n", a - b);
+                printf("Result = %.2f\n", num1 - num2);
                 break;
             case 3:
-                printf("Result = %.2f\n", a * b);
+                printf("Result = %.2f\n", num1 * num2);
                 break;
             case 4:
-                if (b == 0.0f) {
+                if (num2 == 0.0f) {
                     printf("Error: Division by zero is not allowed.\n");
                 } else {
-                    printf("Result = %.2f\n", a / b);
+                    printf("Result = %.2f\n", num1 / num2);
                 }
                 break;
         }
