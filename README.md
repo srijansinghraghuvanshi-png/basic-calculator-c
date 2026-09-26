@@ -44,6 +44,19 @@ gcc calculater.c -o calculater
 
 This is an early learning project. I’m using these fundamentals to build toward Python, DSA, data analysis and AI/ML.
 
+## 💡 Example
+
+```text
+===== BASIC CALCULATOR =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+```
+
+The program asks for two numbers after selecting an operation and prints the result.
+
 ## 🔗 Links
 
 - GitHub: https://github.com/srijansinghraghuvanshi-png
